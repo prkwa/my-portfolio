@@ -17,10 +17,12 @@
     <title> My Portfolio </title>
   </head>
   <body>
-    <div id="splash">
-      <div id="splash_logo"><img src="prkwa.jpeg" alt ="" class="fadeUp"></div>
+    <div id="splash" class="fadeUp">
+      <div id="splash_logo">
+        <img src="prkwa.jpeg" alt ="" class="fadeUp">
+        <h2 class="opening"><font color ="white">Aoi-Portfolio</font></h2></div>
     </div>
-    <div id="container">
+  <div id="container">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -33,22 +35,22 @@
       </div>
     </nav>
 
-    <div class="container-fluid text-center" id="#id1">
+    <div class="container-fluid text-center" id="id1">
       <h1>葵<small>Portfolio</small></h1>
-      <p>これはweek4課題です。</p>
+      <p>これはweek4の課題です。</p>
     </div>
 
     <div class="alert alert-success alert-dismissable fade in">
       <a href="#" class="close" data-dismiss="alert" aria-label="close"
         >&times;</a
       >
-      <strong>本ページは７月１１日に作成しました</strong>
+      <strong>本ページは７月１9日に作成しました</strong>
     </div>
 
     <div class="row">
-      <div class="col-xs-3"></div>
 
-      <div id="myCarousel" class="carousel slide col-xs-6" data-ride="carousel">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -102,11 +104,16 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="col-xs-3"></div>
-    </div>
 
-    <div class="container">
-        <div class="jumbotron" id="#id2">
+    </div>
+    <div class="aboutcontent box fadeIn">
+      <p>このサイトはAoiのポートフォリオサイトです</p>
+      <p>簡単なプロフィールと、所属団体について紹介しています</p>
+      <p>Javascript,JQuery,CSS,Bootstrapの練習のために作成しました</p>
+      <p>どうぞごゆるりとサイト内を散策してください</p>
+    </div>
+    <div class="container box fadeIn" id ="box">
+        <div class="jumbotron" id="id2">
             <h2>About Me</h2>
             <p>葵 / Aoi</p>
             <p>現在GeekSalon WebEXコースでJavascriptを勉強しています。<br><br></p>
@@ -117,6 +124,7 @@
         <dl>
           <dt>所属</dt>
           <dd>九州大学　共創学部</dd>
+          <dd>３年</dd>
         </dl>
         <img
           src="quuniv.jpeg"
@@ -124,6 +132,17 @@
           alt="参考画像"
           width="200"
           height="200"
+          id="iconbutton"
+          onclick = "window.open('https://www.kyushu-u.ac.jp/ja/')"
+        />
+        <img
+          src="kyoso.jpg"
+          class="img-rounded"
+          alt="参考画像"
+          width="200"
+          height="200"
+          id="iconbutton"
+          onclick = "window.open('https://kyoso.kyushu-u.ac.jp/')"
         />
       </div>
       <div class="col-md-3">
@@ -138,6 +157,17 @@
           alt="参考画像"
           width="200"
           height="200"
+          id="iconbutton"
+          onclick = "window.open('https://animaproductionkid.wixsite.com/mysite')"
+        />
+        <img
+          src="qcc.jpeg"
+          class="img-rounded"
+          alt="参考画像"
+          width="200"
+          height="200"
+          id="iconbutton"
+          onclick = "window.open('https://twitter.com/q_chemicalclub')"
         />
       </div>
       <div class="col-md-3">
@@ -152,12 +182,25 @@
           alt="参考画像"
           width="200"
           height="200"
+          id="iconbutton"
+          onclick = "window.open('https://bishoujo-zukan.jp/fukuoka/')"
+        />
+        <img
+          src="recmedia.jpeg"
+          class="img-rounded"
+          alt="参考画像"
+          width="200"
+          height="200"
+          id="iconbutton"
+          onclick = "window.open('https://recmedia.jp/#top')"
         />
       </div>
       <div class="col-md-1"></div>
          </div>
     </div>
   </div>
+  <h2 class="pagetop"><a href="#wrap"><center>▲Page Top</center></a></h2>
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCjo=" crossorigin ="anonymous"></script>
   <script src="main.js"></script>
 
