@@ -108,3 +108,9 @@ img:active {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 650px) {
+  .mediacontent {
+    text-align: center;
+  }
+}
